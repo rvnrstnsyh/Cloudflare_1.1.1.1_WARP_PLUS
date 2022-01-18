@@ -3,7 +3,7 @@
 
 WARP+ uses Cloudflare’s virtual private backbone, known as Argo, to achieve higher speeds and ensure your connection is encrypted across the long haul of the Internet. [Read more](https://blog.cloudflare.com/announcing-warp-plus)
 ## How to use
-Extract the .zip file first - verify the signature with my [public key](https://keys.openpgp.org/vks/v1/by-fingerprint/F739B2ED9CEB7482B1D34529F0F35EAD50642AD7),
+Verify the signature with my [public key](https://keys.openpgp.org/vks/v1/by-fingerprint/F739B2ED9CEB7482B1D34529F0F35EAD50642AD7),
 and execute with python.
 ```
 ~# gpg --verify signature.asc Cloudflare_1.1.1.1_WARP_PLUS.py
