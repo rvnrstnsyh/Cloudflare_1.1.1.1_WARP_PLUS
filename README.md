@@ -32,6 +32,8 @@ and execute with python.
 ```
 This will recursively in every 20 seconds.
 
+**Please note this isn't an internet data quota.**
+
 ## License
 
 MIT
