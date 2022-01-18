@@ -95,7 +95,7 @@ while True:
         print(f"[#] Total: {s_Gb} success, {f_Gb} fail")
         countdown(20)
     else:
-        b = b + 1
+        f_Gb = f_Gb + 1
         os.system('cls' if os.name == 'nt' else 'clear')
         print("[:(] Error when connecting to server.")
         print(f"[#] Total: {s_Gb} success, {f_Gb} fail")
