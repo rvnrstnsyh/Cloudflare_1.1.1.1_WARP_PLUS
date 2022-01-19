@@ -3,6 +3,8 @@
 
 WARP+ uses Cloudflare’s virtual private backbone, known as Argo, to achieve higher speeds and ensure your connection is encrypted across the long haul of the Internet. [Read more](https://blog.cloudflare.com/announcing-warp-plus)
 ## How to use
+It's important to turn on your WARP+ first before running this script.
+
 Verify the signature with my [public key](https://keys.openpgp.org/vks/v1/by-fingerprint/F739B2ED9CEB7482B1D34529F0F35EAD50642AD7),
 and execute Cloudflare_1.1.1.1_WARP_PLUS.py with python 3.
 ```
@@ -31,6 +33,8 @@ and execute Cloudflare_1.1.1.1_WARP_PLUS.py with python 3.
 [*] After 20 seconds, a new request will be sent.
 ```
 This will recursively in every 20 seconds.
+
+If the number does not increase, you must save the license key first. then wipe data/uninstall WRAP+ then reinstall and use the license key you saved earlier and restart this script with your new client ID.
 
 **Please note this isn't an internet data quota.**
 
