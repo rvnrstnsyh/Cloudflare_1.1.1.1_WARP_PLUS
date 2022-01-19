@@ -34,7 +34,7 @@ and execute Cloudflare_1.1.1.1_WARP_PLUS.py with python 3.
 ```
 This will recursively in every 20 seconds.
 
-If the number does not increase, you must save the license key first. then wipe data/uninstall WARP then reinstall and use the license key you saved earlier and restart this script with your new client ID.
+If the number does not increase, you must save the license key first > wipe data/uninstall WARP > reinstall > use the license key you saved earlier > restart this script with your new client ID.
 
 **Please note this isn't an internet data quota.**
 
